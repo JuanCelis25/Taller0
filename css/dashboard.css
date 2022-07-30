@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+*{
+    margin: 0%;
+}section{
+    display: flex;
+}
+.menu{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: 890px;
+    width: 10px;
+}.ico{
+    display: flex;
+    flex-flow: column wrap;
+
+}.ico a {
+ width: 100%;
+ padding: 5%;
+}
+.datos{
+    height: 500px;
+    background-color: aqua;
+    flex: 5 1 auto;
+}.encabezado{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40%;
+        background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+
+  }.opciones{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: var(--negro);
+    display: flex;
+    flex-direction: column;
+}a{
+    text-decoration: none;
+}i{
+    
+    color: white;
+    
+}i:hover{
+    background-color: var(--azuloscuro);
+    width: 90%;
+    height: 100%;
+}
+
+.salir{
+    display: flex;
+    justify-content: end;
+    
+}
+.salir a i{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img{
+    width: 80%;   
+}.logo{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}.desc{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom : 2rem;
+    padding-right : 3rem;
+}
