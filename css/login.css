@@ -48,6 +48,10 @@ section
     align-items: center;
     padding: 1%;
 }
+#incia a{
+    text-decoration: none;
+    color: var(--blanco);
+}
 i
 {
     background-color: var(--Magenta);

@@ -64,7 +64,7 @@ ul{
       justify-content: space-between;
       padding: 7%;
       height: 30%;  
-      background: url(../img/d_fondo.jpeg);
+      background: url(../img/Group\ 200.svg);
       background-size: cover;
       background-repeat: no-repeat;
       
@@ -114,7 +114,7 @@ a{
       height: 100%;
 }.datos{
     height: 100vh;
-    background-image: url(/img/habitacion_fondo.jfif);
+    background-image: url(/img/descargar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
