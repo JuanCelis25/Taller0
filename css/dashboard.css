@@ -110,7 +110,8 @@ a{
     display: flex;
    
 }.logo-img{
-    width: 30%;
+    width: 40%;
+
 }
 .formulario{
     background-color: rgba(255, 255, 255, 0.425);
@@ -295,7 +296,7 @@ a{
     }.form{
         width: 80%;
     }.datos{
-        background: rgb(153, 149, 149);
+        background: rgb(136, 191, 236);
     }.genero{
         width: 75%;
     }
