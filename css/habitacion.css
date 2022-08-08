@@ -21,7 +21,7 @@ body{
       display: grid;
       grid-template-columns: repeat(40, 1fr);
       grid-template-rows: repeat(40, 1fr);
-      background: url(/img/habi-habi.webp);
+      background: url(/img/hotel3.jpg);
       background-size: cover;
 }.opciones{
       background-color: rgb(51, 51, 71) ;
@@ -41,7 +41,7 @@ body{
       display: flex;
       flex-direction: column;
       align-items: center;
-      background: url(/img/foto.jpeg);
+      background: url(/img/lollk.jpg);
       background-size: cover;
 }.desc{
       width: 50%;
@@ -98,10 +98,13 @@ body{
       justify-content: space-around;
       margin-bottom: 2%;
 }.comentario{
-      width: 100%;
+      width: 100px;
       display: flex;
-     margin-left: 15%;
+     margin-left: 7%;
 
+}textarea{
+      width: 530px;
+      
 }.logos{
       display: flex;
       justify-content: space-around;  
@@ -167,7 +170,7 @@ body{
             display: grid;
             grid-template-columns: repeat(40, 1fr);
             grid-template-rows: repeat(40, 1fr);
-            background: url(/img/habi-habi.webp);
+            background: url(/img/hotel3.jpg);
             background-size: cover;
       }.formulario{
             background-color: rgba(255, 255, 255, 0.651);
@@ -193,8 +196,9 @@ body{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: -12%;
+            margin-left: 29%;
             margin-bottom: 4%;
+            
       }.cma{
             display: flex;
             flex-direction: column;
@@ -246,7 +250,7 @@ body{
             width: 70%;
             
       }textarea{
-            width: 20px;
+            width: 220px;
             
       }.aceptar button{
             margin-top: 5%;
