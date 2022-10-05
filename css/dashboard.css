@@ -223,7 +223,7 @@ a{
     display: flex;
     flex-direction: column;
 }#inf input{
-    width: 130%;
+    width: 120%;
 }.radio{
     display: flex;
     flex-flow: row nowrap;
@@ -345,6 +345,6 @@ a{
         font-size: 1.3em;
         width: 95%;
     }#inf input{
-        width: 120%;
+        width: 100%;
     }
 }
