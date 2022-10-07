@@ -436,4 +436,9 @@ nav{
         }.footer-container{
             font-size: 0.8em;
         }
+        .menu.active
+        {
+              display: flex;
+              transform: translateY(0%);
+        }
 }

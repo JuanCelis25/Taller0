@@ -75,7 +75,7 @@ z-index: 100;
 .menu-hr {
     width: 90%;
     background-color: var(--blanco);
-    justify-self: center; /*para centrar el hr*/
+    justify-self: center; 
 }
  
 .item {
@@ -105,7 +105,7 @@ nav a:hover {
 
 #banner {
     grid-area: banner;
-    background-image: url('/img/slide1.jpg');
+    background-image: url(../img/slide1.jpg);
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
@@ -134,7 +134,7 @@ nav a:hover {
 #lg{
     display: none;
 }#feature{
-    background: url(/img/bg-features.png);
+    background: url(../img/bg-features.png);
     background-size: cover;
     grid-area: feature;
     display: grid;
@@ -216,7 +216,7 @@ nav a:hover {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    background: url(/img/Group\ 200.svg);
+    background: url(../img/Group\ 200.svg);
     background-size: cover;
 }#opinion{
     margin-bottom: 5%;
@@ -267,6 +267,8 @@ nav a:hover {
     transform: translateY(0%);
 }.icons p{
     margin-left: 2%; 
+}.mapa iframe{
+    width: 100%;
 }
 
 /*Resolución tabletas*/
@@ -366,7 +368,7 @@ text-align: justify;
     grid-template-columns: auto auto auto;
     grid-gap: 7%;
 }#feature{
-    background: url(/img/bg-features.png);
+    background: url(../img/bg-features.png);
     background-size: cover;
     grid-area: feature;
     display: grid;
@@ -416,7 +418,7 @@ text-align: justify;
         height: 18%;
         font-size: 2.7em;
     }#feature{
-        background: url(/img/bg-features.png);
+        background: url(../img/bg-features.png);
         background-size: cover;
         grid-area: feature;
         display: grid;

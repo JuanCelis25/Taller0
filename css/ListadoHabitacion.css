@@ -24,7 +24,7 @@
       margin: 0%;
 
 }.total{
-    background:url(/img/hotel-4s.jpg);
+    background:url(../img/hotel-4s.jpg);
     background-size: cover;
     display: grid;
     grid-template-columns:  repeat(45, 1fr); 
@@ -35,7 +35,7 @@
     display: none;
 }
 #logo{
-    background: url(/img/fondo\ del\ logo.jpeg);
+    background: url(../img/fondo\ del\ logo.jpeg);
     grid-column: 1/9;
     grid-row: 1/15;
 
@@ -246,7 +246,7 @@ a{
     
     
     #logo{
-        background: url(/img/fondo\ del\ logo.jpeg);
+        background: url(../img/fondo\ del\ logo.jpeg);
         grid-column: 1/8;
         grid-row: 1/9;
     }

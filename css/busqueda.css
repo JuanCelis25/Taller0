@@ -14,6 +14,9 @@
 }h1,h2,h3,h4,h5{
       font-family: 'Marcellus', serif;
 }
+body{
+      margin: 0%;
+}
 .total{
       font-family: 'Marcellus', serif;
       margin: 0%;
@@ -21,13 +24,13 @@
       display: grid;
       grid-template-columns: repeat(40, 1fr);
       grid-template-rows: repeat(40, 1fr);
-      background: url(/img/hotel3.jpg);
+      background: url(../img/hotel3.jpg);
       background-size: cover;
 }#logo .mobile{
   display: none;
 }
 #logo{
-  background: url(/img/fondo\ del\ logo.jpeg);
+  background: url(../img/fondo\ del\ logo.jpeg);
   grid-column: 1/9;
   grid-row: 1/15;
 
@@ -212,7 +215,7 @@ a{
             display: grid;
             grid-template-columns: repeat(40, 1fr);
             grid-template-rows: repeat(40, 1fr);
-            background: url(/img/hotel3.jpg);
+            background: url(../img/hotel3.jpg);
             background-size: cover;
       }.formulario{
             background-color: rgba(255, 255, 255, 0.651);
